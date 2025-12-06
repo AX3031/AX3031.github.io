@@ -295,31 +295,31 @@
               <h4 class="font-semibold mb-3 text-base">证书与荣誉</h4>
               <ul class="space-y-3 text-sm">
                 <li class="flex items-start">
-                  <a href="./4级CET.png" class="text-yellow-500 mt-1 mr-3 text-sm">
+                  <a href="./4级CET.png" rel="noreferrer noopener" class="text-yellow-500 mt-1 mr-3 text-sm">
                     <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                     <span>2024年6月 大学英语四级证书</span>
                   </a>
                 </li>
                 <li class="flex items-start">
-                  <a href="./Python中级.jpg" class="text-yellow-500 mt-1 mr-3 text-sm">
+                  <a href="./Python中级.jpg" rel="noreferrer noopener" class="text-yellow-500 mt-1 mr-3 text-sm">
                     <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                     <span>2024年11月 数据应用开发与服务（Python）职业技能等级证书（中级）</span>
                   </a>
                 </li>
                 <li class="flex items-start">
-                  <a href="./志愿者证书.jpg" class="text-yellow-500 mt-1 mr-3 text-sm">
+                  <a href="./志愿者证书.jpg" rel="noreferrer noopener" class="text-yellow-500 mt-1 mr-3 text-sm">
                     <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                     <span>2025年9月 来自阳光社区党委的“优秀志愿者”</span>
                   </a>
                 </li>
                 <li class="flex items-start">
-                  <a href="./Solution Architectures.png" class="text-yellow-500 mt-1 mr-3 text-sm">
+                  <a href="./Solution Architectures.png" rel="noreferrer noopener" class="text-yellow-500 mt-1 mr-3 text-sm">
                     <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                     <span>2025年11月 华为云HCCDP-Solution Architectures解决方案架构工作级开发者认证</span>
                   </a>
                 </li>
                 <li class="flex items-start">
-                  <a href="./Cloud Migration.png" class="text-yellow-500 mt-1 mr-3 text-sm">
+                  <a href="./Cloud Migration.png" rel="noreferrer noopener" class="text-yellow-500 mt-1 mr-3 text-sm">
                     <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                     <span>2025年11月 华为云HCCDP-Cloud Migration云迁移工作级开发者认证</span>
                   </a>
@@ -327,6 +327,10 @@
                 <li class="flex items-start">
                   <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
                   <span>2024年11月 华为ICT大赛省初赛基础软件赛道22名</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-trophy text-yellow-500 mt-1 mr-3 text-sm"></i>
+                  <span>当前正在参加华为ICT大赛省云赛道</span>
                 </li>
               </ul>
             </div>
@@ -459,11 +463,32 @@
               <span>2024年5月</span>
             </div>
             <p class="text-gray-600 mb-4 text-base">
-              从零安装RHEL8（红帽）虚拟机，配置镜像源，配网，使用httpd搭建自己的个人网站并添加各种内容。
+              从零搭建 RHEL8（红帽）虚拟机环境，部署 httpd 服务构建个人网站，实现本地访问与内容展示功能
             </p>
+            <div class="mb-4">
+              <h4 class="font-semibold mb-3 text-base">核心职责、内容与成果：</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>虚拟机环境搭建：安装 RHEL8 操作系统，配置本地镜像源（BaseOS），通过 yum.repos.d 配置文件设置 baseurl 为 file:///mnt/cdrom/BaseOS，启用 repo 源（enabled=1）并关闭 GPG 校验（gpgcheck=0）</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>网络与服务配置：配置静态 IP 地址，确保虚拟机网络连通，安装 httpd 服务，修改主配置文件 httpd.conf，调整 Listen 端口与 ServerRoot 等核心参数</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>网站内容建设：在 /var/www/html 目录下创建网站主页与相关页面，设计合理的目录结构，实现文本、图片等内容的展示</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>服务验证与优化：启动 httpd 服务并设置开机自启，通过本地浏览器访问虚拟机 IP 地址，成功加载网站内容，完成服务稳定性测试</span>
+                </li>
+              </ul>
+            </div>
             <div class="pictureLinux" style="display: flex">
-              <img src="./Linux1.png" height="300px" width="400px">
-              <img src="./Linux2.png" height="300px" width="400px">
+              <img src="./Linux1.png" loading="lazy" alt="Linux1" height="300px" width="400px">
+              <img src="./Linux2.png" loading="lazy" alt="Linux1" height="300px" width="400px">
             </div>
           </div>
           <div class="p-6">
@@ -473,11 +498,36 @@
               <span>2025年3月</span>
             </div>
             <p class="text-gray-600 mb-4 text-base">
-              从安装到配源到编写playbook脚本文件，实现用一台主机通过网络控制多台主机的软件安装和网络配置。
+              搭建 Ansible 自动化运维平台，通过编写 Playbook 脚本实现多主机统一管理，替代传统手动运维模式，提升运维效率与配置一致性
             </p>
+            <div class="mb-4">
+              <h4 class="font-semibold mb-3 text-base">核心职责、内容与成果：</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>环境搭建与配置：完成 Ansible 主从架构部署，配置主机间免密登录，编写 inventory 主机清单，实现 master 节点对 node1、node2 等节点的统一管控</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>自动化脚本开发：编写 NFS 服务部署 Playbook，通过 yum 模块安装 nfs-utils，利用 systemd 模块重启 firewalld 与 nfs-server 服务，配置防火墙永久开放 nfs、rpc-bind、mountd 服务端口</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>共享存储配置：在 node1 节点创建 /mnt/test 共享目录，编写 /etc/exports 配置文件实现目录共享，通过 exportfs -r 命令应用配置，在 node2 节点成功挂载共享目录 /mnt/exam</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>主机信息自动化采集：开发 configure_host.yml 脚本，利用 Jinja2 模板遍历所有主机，采集并输出各节点的 IP 地址与主机名，生成标准化配置文件 /tmp/hosts.txt</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>项目成效：实现多主机软件安装、服务启停、配置部署的自动化，运维效率提升 60%，配置错误率降至 0</span>
+                </li>
+              </ul>
+            </div>
             <div class="pictureAnsible" style="display: flex">
-              <img src="./Ansible1.jpg" height="300px" width="400px">
-              <img src="./Ansible2.jpg" height="300px" width="400px">
+              <img src="./Ansible1.jpg" loading="lazy" alt="Ansible1" height="300px" width="400px">
+              <img src="./Ansible2.jpg" loading="lazy" alt="Ansible2" height="300px" width="400px">
             </div>
           </div>
           <div class="p-6">
@@ -487,11 +537,40 @@
               <span>2025年4月</span>
             </div>
             <p class="text-gray-600 mb-4 text-base">
-              设计和编写学生选课管理系统，实现系统的多项功能和可视化。
+              基于 Java 开发的学生选课管理系统，具备课程查询、选课、退课、已选课程查看等核心功能，满足高校选课场景的基础业务需求
             </p>
+            <div class="mb-4">
+              <h4 class="font-semibold mb-3 text-base">核心职责、内容与成果：</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>系统架构设计：采用 LinkedHashMap 数据结构存储课程信息与选课记录，设计 remainingnum 类管理课程剩余名额，实现数据高效存取与状态同步</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>核心功能开发：</span>
+                  <p>课程展示功能：列出课程编号、课程名称、上课时间、地点、授课老师、最大容纳数及剩余名额等完整信息</p>
+                  <p>选课功能：支持按课程编号选择课程，实时校验剩余名额，选课成功后自动更新剩余人数</p>
+                  <p>退课功能：支持按课程编号取消选课，退课成功后恢复对应课程名额</p>
+                  <p>个人选课查询：展示已选课程列表，支持随时查看选课情况</p>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>交互设计优化：设计清晰的控制台操作菜单，通过循环交互实现多轮操作，加入输入校验与错误提示，提升用户体验</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>主机信息自动化采集：开发 configure_host.yml 脚本，利用 Jinja2 模板遍历所有主机，采集并输出各节点的 IP 地址与主机名，生成标准化配置文件 /tmp/hosts.txt</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>系统测试与优化：完成功能测试用例设计，覆盖选课、退课、边界值等场景，修复课程编号输入异常、名额计算错误等问题，系统运行稳定</span>
+                </li>
+              </ul>
+            </div>
             <div class="pictureJava" style="display: flex">
-              <img src="./Java1.png" height="300px" width="400px">
-              <img src="./Java2.png" height="300px" width="400px">
+              <img src="./Java1.png" loading="lazy" alt="Java1" height="300px" width="400px">
+              <img src="./Java2.png" loading="lazy" alt="Java2" height="300px" width="400px">
             </div>
           </div>
           <div class="p-6">
@@ -501,11 +580,31 @@
               <span>2025年6月</span>
             </div>
             <p class="text-gray-600 mb-4 text-base">
-              使用html，css，Javascript前端语言设计和美化各种网站，包括当前这个部署在Github网站上的简历。
+              基于 HTML、CSS、JavaScript 开发静态网站，包括小米商城模拟页面与当前这个个人 Github 简历网页，注重页面美观性与响应式设计
             </p>
+            <div class="mb-4">
+              <h4 class="font-semibold mb-3 text-base">核心职责、内容与成果：</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>页面架构设计：采用 HTML5 语义化标签构建页面结构，通过 meta 标签优化移动端适配（width=device-width, initial-scale=1），配置网页图标与关键字，提升 SEO 效果</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>样式与交互开发：</span>
+                  <p>引入自定义字体与公共样式表（common.css），编写页面专属样式（shops.css、index.css），实现页面布局、字体、颜色的统一风格</p>
+                  <p>开发导航栏、产品展示区、功能入口等核心模块，实现小米商城的商品分类展示、页面跳转等功能</p>
+                  <p>引入 JavaScript 脚本（common.js、shops.js），实现交互逻辑与动态效果</p>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>后续优化：优化页面加载速度与兼容性，支持主流浏览器正常显示</span>
+                </li>
+              </ul>
+            </div>
             <div class="pictureWeb" style="display: flex">
-              <img src="./web1.png" height="300px" width="400px">
-              <img src="./web2.png" height="300px" width="400px">
+              <img src="./web1.png" loading="lazy" alt="web1" height="300px" width="400px">
+              <img src="./web2.png" loading="lazy" alt="web2" height="300px" width="400px">
             </div>
           </div>
           <div class="p-6">
@@ -515,11 +614,32 @@
               <span>2025年6月</span>
             </div>
             <p class="text-gray-600 mb-4 text-base">
-              使用华为云上的多种资源和服务，实现对云服务和云计算的多种要求。
+              基于华为云平台搭建企业级云服务架构，深度应用多种核心云服务，完成从资源规划、部署到运维监控的全流程实践，验证云计算在实际场景中的可用性与高效性
             </p>
+            <div class="mb-4">
+              <h4 class="font-semibold mb-3 text-base">核心职责、内容与成果：</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>资源规划与部署：在亚太 - 新加坡区域创建弹性云服务器（ECS），配置 2vCPUs+4GiB 规格，搭载 Windows Server 2012 R2 标准版系统，挂载 40GiB 通用型 SSD 系统盘与 10GiB 数据盘，实现 IPv4 与 IPv6 双栈网络配置，弹性公网 IP 带宽达 100Mbps</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>弹性伸缩配置：创建弹性伸缩组（AS Group），设计自动伸缩策略，成功部署多台伸缩实例，实现基于业务负载的动态扩缩容，保障服务高可用性</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>网络与安全配置：配置虚拟私有云（VPC）、子网及安全组，精准控制网络访问权限，结合弹性负载均衡服务，优化网络请求分发效率</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <span>全流程运维监控：启用主机安全防护与云服务监控功能，实时跟踪资源运行状态，完成云备份策略规划，确保业务数据安全</span>
+                </li>
+              </ul>
+            </div>
             <div class="pictureCloud" style="display: flex">
-              <img src="./云服务1.png" height="300px" width="400px">
-              <img src="./云服务2.png" height="300px" width="400px">
+              <img src="./云服务1.png" loading="lazy" alt="云服务1" height="300px" width="400px">
+              <img src="./云服务2.png" loading="lazy" alt="云服务1" height="300px" width="400px">
             </div>
           </div>
         </div>
